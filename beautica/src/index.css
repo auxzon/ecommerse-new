@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+
+  box-sizing: border-box;
+  font-family: 'Poppins',Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.special-element {
+  font-family: 'Armino', Arial, Helvetica, sans-serif;
+}
+
+/* .carousel {
+  display: flex;
+  overflow-x: scroll; 
+  scroll-snap-type: x mandatory; 
+  -webkit-overflow-scrolling: touch; 
+  scroll-behavior: smooth;
+  width: 100%; 
+}
+
+.carousel img {
+  flex: 0 0 100%;
+  scroll-snap-align: start;
+} */
+/* ----------------------------- */
+
+/* Add this to your CSS file or Tailwind configuration */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
